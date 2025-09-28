@@ -1,0 +1,26 @@
+{
+  "Michigan": {
+    "hardhat": {
+      "rule": "MIOSHA Rule 408.40114",
+      "consequence": "Fine up to $7,000 per violation"
+    },
+    "mask": {
+      "rule": "MIOSHA COVID-19 Emergency Rules, Part 11",
+      "consequence": "Citation and potential business closure for repeated offenses"
+    },
+    "safety vest": {
+      "rule": "MIOSHA Rule 408.13811",
+      "consequence": "Fine and mandatory safety equipment enforcement"
+    }
+  },
+  "California": {
+    "NO-Mask": {
+      "rule": "Cal/OSHA §3205 (COVID-19 Prevention)",
+      "consequence": "Citation, penalties, and possible site shutdown"
+    },
+    "NO-Safety Vest": {
+      "rule": "Cal/OSHA §1598",
+      "consequence": "Serious violation; penalties assessed per exposed worker"
+    }
+  }
+}
