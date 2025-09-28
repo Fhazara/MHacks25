@@ -86,7 +86,7 @@ def main():
             print("Error: Failed to capture frame.")
             break
 
-        results = model(frame)
+        results = model(frame, verbose=False)
         person_count = 0
         no_flags = []
         positive_flags = set()
