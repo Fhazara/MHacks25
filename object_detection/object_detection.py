@@ -193,6 +193,10 @@ def main():
     for entry in equipment_log:
         print(entry)
 
+    with open("sample_batches.txt", "w") as f:
+        for item in sample_batches:
+            f.write(str(item) + "\n")
+
 #    from agent_connector import send_report_to_agentverse
 
 if __name__ == "__main__":
