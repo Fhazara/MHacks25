@@ -20,7 +20,6 @@ client_agent = Agent(
 )
 
 async def send_batches(ctx: Context):
-    while True:
         for batch in sample_batches:
             violations = [
                 Violation(
