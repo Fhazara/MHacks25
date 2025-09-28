@@ -68,6 +68,14 @@ Our prototype leverages a fine-tuned **YOLO11** object detection model to monito
 
 ---
 
+## Additional data
+
+Due to file size constrictions the larger model could not be uploaded to github
+
+To download it use the [following link](https://www.dropbox.com/scl/fi/h7b1iqpsd1dc6hbrq3aiw/best_yolo11m.pt?rlkey=u7xmn53wrjmylpwcs2mwb7kmk&st=4kr8jjey&dl=0)
+
+---
+
 ## Built With  
 - [cv2 (OpenCV)](https://opencv.org/)  
 - [fetch.ai](https://fetch.ai/)  
