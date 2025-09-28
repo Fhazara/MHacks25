@@ -75,7 +75,4 @@ Our prototype leverages a fine-tuned **YOLO11** object detection model to monito
 - [PyTorch](https://pytorch.org/)  
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)  
 
----
 
-## Try It Out  
-👉 [GitHub Repo](#)  
