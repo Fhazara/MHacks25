@@ -1,0 +1,41 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# ── Runtime artefacts ────────────────────────────────────────────────────────
+object_detection/sample_batches.txt
+*.log
+*.tmp
+
+# ── Model weights (large binary files — store in DVC / LFS if needed) ────────
+# object_detection/models/*.pt   ← uncomment to exclude weights from git
+# object_detection/models/*.pth
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
